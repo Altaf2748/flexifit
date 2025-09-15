@@ -1,4 +1,3 @@
-import React from 'react'
 import Register from './Logins/Register'
 import SignIn from './Logins/SignIn'
 import { Route , Routes } from 'react-router-dom'
@@ -17,6 +16,7 @@ import EditPlan from './Pages/EditPlan'
 import NearbyGymsPage from './Pages/NearbyGymsPage'
 import FoodAnalysis from './Pages/FoodAnalysis'
 import AITrainerChatbot from './Components/AITrainerChatbot'
+import PoseDetection from './Pages/PoseDetection'
 
 const App = () => {
 
@@ -40,6 +40,7 @@ const App = () => {
         <Route path="/edit-plan/:id" element={<EditPlan />} />
         <Route path="/nearby-gyms" element={<NearbyGymsPage />} />
         <Route path="/food-analysis" element={<FoodAnalysis />} />
+        <Route path="/pose-detection" element={<PoseDetection />} />
       </Routes>
       <AITrainerChatbot />
     </LoadingProvider>

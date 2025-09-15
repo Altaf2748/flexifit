@@ -96,6 +96,8 @@ const NavBar = () => {
     { path: "/my-plans", name: "My Plans", icon: "calendar" },
     { path: "/diet", name: "Diet Plans", icon: "utensils" },
     { path: "/nearby-gyms", name: "Find Gyms", icon: "map-pin" },
+    { path: "/pose-detection", name: "Pose Detection", icon: "camera" },
+
   ];
 
   return (
